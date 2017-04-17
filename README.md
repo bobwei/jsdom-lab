@@ -1,3 +1,3 @@
-# Javascript Project Template
+# JSDOM Lab
 
-This is a javascript project template with batteries included to speed up project initiation.
+This is a hands-on lab with jsdom.

@@ -1,10 +1,11 @@
 {
-  "name": "javascript-project-template",
+  "name": "jsdom-lab",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "babel-node src/index.js",
+    "dev": "nodemon src/index.js --exec babel-node"
   },
   "author": "bob61016@gmail.com",
   "license": "MIT",
@@ -19,5 +20,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.9.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jsdom": "^9.12.0"
+  }
 }
